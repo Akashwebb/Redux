@@ -1,0 +1,29 @@
+[
+    {   "id":1,
+        "name": "boat-earphone",
+        "brand": "Boat",
+        "image": "./images/boat.jpg",
+        "price": 499
+    },
+    {
+        "id":2,
+        "name": "realme-earphone",
+        "brand": "Realme",
+        "image": "./images/realme.jpeg",
+        "price": 699
+    },
+    {   
+        "id":3,
+        "name": "mi-earphone",
+        "brand": "Mi",
+        "image": "./images/mi.jpg",
+        "price": 599
+    },
+    {
+        "id":4,
+        "name": "samsung-earphone",
+        "brand": "Samsung",
+        "image": "./images/samsung.jpg",
+        "price": 799
+    }
+]

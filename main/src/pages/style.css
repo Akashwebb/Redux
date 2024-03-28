@@ -1,0 +1,42 @@
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .grid-item {
+    flex: 0 0 calc(33.33% - 20px); /* Set item width to one-third of the container width with some margin */
+    margin: 10px; /* Add margin around items */
+    background-color: #f3f6a6; /* Example background color */
+    text-align: center;
+  }
+  
+  .grid-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+/* Additional styles for the buttons */
+.but {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.but2 {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #ed260c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.but:hover {
+    background-color: #0056b3;
+}
+#flexing{
+    display: flex;
+    justify-content: space-around;
+}
